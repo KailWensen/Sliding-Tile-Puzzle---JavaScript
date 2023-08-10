@@ -1,0 +1,52 @@
+Sliding Number Puzzle Game Documentation
+Table of Contents
+Introduction
+Game Overview
+Features
+Gameplay
+Installation
+Controls
+Development
+1. Introduction
+Welcome to the Sliding Number Puzzle Game Documentation! This document provides an overview of the sliding number puzzle game, its features, gameplay instructions, installation process, controls, and development details.
+
+2. Game Overview
+The sliding number puzzle game is a classic and challenging puzzle where players rearrange numbered tiles to arrange them in sequential order. The objective is to slide the tiles into the correct order, ultimately solving the puzzle.
+
+3. Features
+Interactive sliding puzzle gameplay with numbered tiles.
+Dynamic tile colors that change with each slide.
+Scramble button to shuffle the tiles for a new game.
+Adjustable grid size for varying difficulty levels.
+Win status display indicating the number of moves taken.
+4. Gameplay
+Upon starting the game, tiles are initially shuffled.
+Slide tiles horizontally or vertically to empty spaces.
+Form the correct numerical order to solve the puzzle.
+The game is won when the tiles are arranged in sequential order.
+5. Installation
+To play the game:
+
+Clone or download the game's source code from the GitHub repository.
+Open the index.html file in a web browser.
+6. Controls
+Use the mouse to click on a numbered tile adjacent to the empty space to slide it.
+Click the "Scramble" button to shuffle the tiles for a new game.
+Use the dropdown menu to select the grid size and adjust difficulty.
+7. Development
+Technologies Used
+HTML5
+CSS3
+JavaScript
+Code Structure
+index.html: The main HTML file containing the game canvas and user interface elements.
+styles.css: The CSS file responsible for styling the game and user interface.
+script.js: The JavaScript file containing the game logic and functionality.
+How to Customize
+Adjust the createGame function in script.js to change the grid size and starting arrangement.
+Modify the colors array to customize tile colors.
+Customize the game's appearance by updating the CSS in styles.css.
+Future Enhancements
+Timer feature to track time taken to complete the puzzle.
+Hint system to assist players in solving the puzzle.
+Multiple puzzle themes and customizable tile designs.
